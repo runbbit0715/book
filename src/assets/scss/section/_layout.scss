@@ -1,0 +1,18 @@
+#header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 260px;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 10000;
+  background-color: var(--header-background-color);
+}
+
+#main {
+  max-width: 2000px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-left: 260px;
+  background-color: var(--main-background-color);
+}

@@ -1,0 +1,36 @@
+/* 폰트 추가
+  @font-face {
+    font-family: "폰트 이름";
+    font-weight: 굵기(숫자);
+    font-style: normal, italic, oblique;
+    src: url("폰트 경로") format("형태 (ttf)"),
+        url("폰트 경로") format("형태 (otf)")
+    font-display: swap;
+}
+*/
+
+/* 평창 평화체 */
+@font-face {
+  font-family: "PyeongChangPeace";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../fonts/PyeongChangPeace-Light.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PyeongChangPeace";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../../fonts/PyeongChangPeace-Bold.ttf") format("ttf");
+  font-display: swap;
+}
+
+/* 카페24 모야모야 */
+@font-face {
+  font-family: "Cafe24Moyamoya";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../fonts/Cafe24Moyamoya-Regular-v1.0.otf") format("otf");
+  font-display: swap;
+}

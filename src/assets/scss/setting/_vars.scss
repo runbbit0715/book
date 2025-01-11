@@ -1,0 +1,50 @@
+:root {
+  //색상 변수
+  --black: #000;
+  --black100: #111;
+  --black200: #222; 
+
+  --white: #fff;
+  --white100: #e4e4e4;
+
+  --yellow: #ffa200;
+  --deepyellow: #ff8c00;
+
+  --navy: #142143;
+
+  --sky: #9be7fa;
+
+  --blue: #1a5d94;
+
+  --pinkPastel: #fadbd9;
+  --pinkPastelDeep: #ffc0bc;
+
+  // 배경 색상 변수
+  --main-background-color: #142143;
+  --header-background-color: #ffa200;
+
+  // 폰트 색상 변수
+  --main-font-color: #fff;
+
+  //폰트 변수
+  --mainfont-pyeongChang: "PyeongChangPeace";
+  --specialfont-cafa24: "Cafe24Moyamoya";
+
+  // 폰트 셋팅
+  font-family: var(--mainfont-pyeongChang), var(--specialfont-cafa24);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  // 폰트 최적화
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  @media (max-width: 800px) {
+      font-size: 14px;
+      line-height: 1.4;
+  }
+}

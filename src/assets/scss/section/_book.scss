@@ -1,0 +1,159 @@
+#book {
+  padding: 0 25px;
+  position: relative;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.upButton {
+  display: block;
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100000;
+    background-color: rgba(228,228,228,0);
+    color: var(--deepyellow);
+    font-size: 25px;
+    border-radius: 50%;
+    transition: all 0.25s;
+    &:hover {
+      background-color: rgba(228,228,228,0.8);
+    }
+}
+
+#info {
+  padding-bottom: 15px;
+  overflow: hidden;
+  .title {
+    font-size: 26px;
+    padding-bottom: 5px;
+    margin-bottom: 17px;
+    border-bottom: 4px solid var(--yellow);
+  }
+
+  #shortCut {
+    display: flex;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    li {
+      box-sizing: border-box;
+      a {
+        display: block;
+        margin: 0 5px;
+        padding: 4px 13px;
+        border: 2.5px solid var(--yellow);
+        border-radius: 25px;
+      }
+      &:last-child {
+        margin-right: 10px;
+      }
+    }
+  }
+  .wrap {
+      display: flex;
+      margin: 0 auto;
+      width: 680px;
+      .left {
+        width: 300px;
+        img {
+          width: 200px;
+          height: 346px;
+          margin-left: 5px;
+        }
+      }
+      .right {
+        background-color: #606b87;
+        padding: 12px 15px;
+        .state {
+          span {
+            padding: 0 10px;
+            background-color: var(--blue);
+            border-radius: 15px;
+          }
+        }
+      .maker {
+  
+        .author {
+          margin-right: 60px;
+        }
+        .translator {}
+      }
+      .genre {
+  
+        span {
+            margin-left: 7px;
+        padding: 0 6px;
+        background-color: var(--yellow);
+        border-radius: 5px;
+        color: var(--black);
+        }
+      }
+      .label {
+  
+        span {
+          margin-left: 7px;
+        padding: 0 6px;
+        background-color: var(--pinkPastelDeep);
+        border-radius: 5px;
+        color: var(--black);
+        }
+      }
+      .page {
+        display: flex;
+        flex-wrap: wrap;
+        span {
+          margin-right: 10px;
+          &:last-child {margin-right: 0;}
+        }
+        .totalPage {}
+        .currentPage {}
+        .progress {}
+      }
+      .date {
+        display: flex;
+        flex-wrap: wrap;
+        span {
+          margin-right: 10px;
+          &:last-child {margin-right: 0;}
+        }
+        .start {}
+        .end {}
+      }
+      .summary {}
+      }
+    }
+  }
+
+  #contents {
+    margin-bottom: 15px;
+    .content {
+      .page {
+        background-color: rgba(255,255,255,0.25);
+        padding: 0 5px;
+        border-radius: 5px;
+        margin-right: 5px;
+      }
+      .q {
+        color: var(--sky);
+      }
+    }
+  }
+
+  #memos {
+    .mtitle {
+      background-color: var(--yellow);
+      color: var(--navy);
+      font-weight: bolder;
+      padding-left: 7px;
+      border-radius: 10px;
+      margin: 5px 0;
+    }
+    .memo {
+      text-indent: 1rem;
+    }
+  }
